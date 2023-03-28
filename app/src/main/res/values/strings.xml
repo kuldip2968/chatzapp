@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chatzapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="verify_your_phone_number">Verify your phone number</string>
+    <string name="we_will_send_otp_on_your_number_to_verify">We will send OTP on your number to verify</string>
+    <string name="type_your_phone_number">Type your phone number</string>
+    <string name="continue_button">continue</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_the_otp_to_verify_your_phone_number">Enter the OTP to verify your phone number</string>
+    <string name="verify_number">Verify number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="please_set_your_name_and_image">Please set your Image and Details</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="bio">Bio</string>
+</resources>

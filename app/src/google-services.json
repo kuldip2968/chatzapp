@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "702953946328",
+    "firebase_url": "https://chatzapp-13156-default-rtdb.firebaseio.com",
+    "project_id": "chatzapp-13156",
+    "storage_bucket": "chatzapp-13156.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702953946328:android:69afe3b3cf7beab2d9ebad",
+        "android_client_info": {
+          "package_name": "com.kuldip.chatzapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702953946328-03tcmt45pmut6mqgsu306t5he152hoil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kuldip.chatzapp",
+            "certificate_hash": "d35b638037afc384a05c09fc542eed38709b71cc"
+          }
+        },
+        {
+          "client_id": "702953946328-kvq1pk64qn7ivvtd0tir5n0l3f2aoonk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe03RmN0ydfwLgf--H5oRng4Uy3xvj0ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702953946328-kvq1pk64qn7ivvtd0tir5n0l3f2aoonk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
