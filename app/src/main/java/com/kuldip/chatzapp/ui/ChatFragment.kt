@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
@@ -22,13 +23,13 @@ class ChatFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentChatBinding.inflate(layoutInflater)
         database = FirebaseDatabase.getInstance()
         userList = ArrayList()
 
-        database!!.reference.child("users")
+        database.reference.child("users")
             .addValueEventListener(object : ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
                     userList.clear()
@@ -44,7 +45,7 @@ class ChatFragment : Fragment() {
                 }
 
                 override fun onCancelled(error: DatabaseError) {
-                    TODO("Not yet implemented")
+                  Toast.makeText(requireContext(),error.message,Toast.LENGTH_SHORT).show()
                 }
             })
 
